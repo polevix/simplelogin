@@ -1,7 +1,7 @@
-# simplelogin
+# Simple login
 
-simple log in made with only html and css.
+Simple log in made with only html and css.
 
-added cool animation on email/password box on click:
+Added cool animation on email/password box on click:
 
 <img src="./source/done.PNG">
