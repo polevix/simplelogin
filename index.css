@@ -12,7 +12,7 @@ section {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url('./source/ceu.jpg') no-repeat;
+    background: url('./source/castelo.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -42,6 +42,15 @@ h2 {
     margin: 30px 0;
     width: 310px;
     border-bottom: 2px solid #fff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input[data-autocompleted] {
+    background-color: transparent !important;
 }
 
 .inputbox label {
